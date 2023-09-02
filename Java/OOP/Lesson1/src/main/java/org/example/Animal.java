@@ -1,6 +1,6 @@
 package org.example;
 
-public class Animal
+public abstract class Animal
 {
      protected String name;
 
@@ -11,10 +11,10 @@ public class Animal
     public Animal() {
     }
 
-    public void animalInfo()
-    {
-        System.out.println("Животное " + name);
-    }
+    public abstract void animalInfo();
+//    {
+//        System.out.println("Животное " + name);
+//    }
 
     public void voice()
     {

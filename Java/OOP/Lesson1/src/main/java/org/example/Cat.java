@@ -16,7 +16,10 @@ public class Cat extends Animal
     public Cat() {
     }
 
-
+    @Override
+    public void voice() {
+        System.out.println("Кот мяукает");
+    }
 
     public String getColor() {
         return color;
@@ -34,6 +37,11 @@ public class Cat extends Animal
         this.age = age;
     }
 
+
+    public void svr()
+    {
+        System.out.println("Кот свернулся");
+    }
     @Override
     public String toString() {
         return "Cat{" +
